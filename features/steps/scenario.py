@@ -4,8 +4,11 @@ import time
 from datetime import datetime
 from selenium.common.exceptions import *
 import logging
+import os
+
 logging.basicConfig(format=u'%(filename)s[LINE:%(lineno)d]# %(levelname)-8s [%(asctime)s]  %(message)s',
                     filename="log.log", level=logging.INFO)
+
 
 @when('Зашли на сайт "{site_name}"')
 def step_impl(context, site_name):
@@ -14,6 +17,7 @@ def step_impl(context, site_name):
     """
     context.driver = webdriver.Firefox(executable_path=r"D:\\gecodrive\\geckodriver.exe")
     context.driver.get(site_name)
+    context.driver.delete_all_cookies()
 
 @step('Кликаем на кнопку Логина')
 def step_impl(context):
@@ -43,8 +47,7 @@ def step_impl(context, password):
 
 @then('Приверяем страницу')
 def step_impl(context):
-    wait_for_element = context.WebDriverWait(context.driver, 10).until(
-        context.EC.visibility_of_element_located((context.By.ID, "login_reg_button")))
+    time.sleep(5)
     if context.driver.current_url == "https://vk.com/":
         logging.info('Мы Не сменили страницу!')
         #print("Мы Не сменили страницу!")
@@ -69,9 +72,7 @@ def step_impl(context):
 
 @step('Опять проверяем страницу')
 def step_impl(context):
-    wait_for_element = context.WebDriverWait(context.driver, 10).until(
-        context.EC.visibility_of_element_located((context.By.ID, "ij_submit"))
-    )
+    time.sleep(5)
     if context.driver.current_url == "https://vk.com/":
         logging.info('Мы на первой странице!')
        # print("Мы на первой странице!")
