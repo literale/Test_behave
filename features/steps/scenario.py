@@ -3,7 +3,9 @@ from behave import *
 import time
 from datetime import datetime
 from selenium.common.exceptions import *
-
+import logging
+logging.basicConfig(format=u'%(filename)s[LINE:%(lineno)d]# %(levelname)-8s [%(asctime)s]  %(message)s',
+                    filename="log.log", level=logging.INFO)
 
 @when('Зашли на сайт "{site_name}"')
 def step_impl(context, site_name):
@@ -22,9 +24,11 @@ def step_impl(context):
 def step_impl(context):
     try:
         log_btn = context.driver.find_element_by_id('index_login_button')
-        print("Мы  не залогинились!")
+        logging.info('Мы  не залогинились!')
+        #print("Мы  не залогинились!")
     except NoSuchElementException:
-        print("Мы залогинились!")
+        logging.info('Мы залогинились!')
+        #print("Мы залогинились!")
 
 @then('Вводим логин "{login}"')
 def step_impl(context, login):
@@ -42,14 +46,19 @@ def step_impl(context):
     wait_for_element = context.WebDriverWait(context.driver, 10).until(
         context.EC.visibility_of_element_located((context.By.ID, "login_reg_button")))
     if context.driver.current_url == "https://vk.com/":
-        print("Мы Не сменили страницу!")
+        logging.info('Мы Не сменили страницу!')
+        #print("Мы Не сменили страницу!")
     else:
-        print("Мы сменили страницу!")
+        logging.info('Мы сменили страницу!')
+        #print("Мы сменили страницу!")
+
     try:
         log_mes_btn = context.driver.find_element_by_id('login_message')
-        print("Мы на странице ошибки!")
+        logging.info('Мы на странице ошибки!')
+        #print("Мы на странице ошибки!")
     except NoSuchElementException:
-        print("Мы залогинились?")
+        logging.info('Мы залогинились?')
+       # print("Мы залогинились?")
 
 
 @step('Нажимаем кнопку регистрации')
@@ -64,15 +73,15 @@ def step_impl(context):
         context.EC.visibility_of_element_located((context.By.ID, "ij_submit"))
     )
     if context.driver.current_url == "https://vk.com/":
-        print("Мы на первой странице!")
+        logging.info('Мы на первой странице!')
+       # print("Мы на первой странице!")
     elif context.driver.current_url == "https://vk.com/join":
-        print("Мы не на первой странице, но на ее аналоге.")
+        logging.info('Мы не на первой странице, но на ее аналоге.')
+       # print("Мы не на первой странице, но на ее аналоге.")
     else:
-        print("Мы не на первой странице! :с")
+        logging.info('Мы не на первой странице! :с')
+       # print("Мы не на первой странице! :с")
 
 
 def skip_scenario(context, result):
-    if result == "Неудачно":
-        with open("log.txt", "a") as log:
-            log.write("{0} Сценарий не выполнен.\n".format(datetime.now()))
-            context.scenario.skip(require_not_executed=True)
+    logging.info('Сценарий не выполнен')
