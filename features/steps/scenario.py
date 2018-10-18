@@ -1,3 +1,10 @@
+import smtplib
+from email.mime.application import MIMEApplication
+from email.mime.multipart import MIMEMultipart
+from io import BytesIO
+from tkinter import Image
+
+import location as location
 from Tools.scripts.win_add2path import PATH
 from selenium import webdriver
 from behave import *
@@ -71,6 +78,23 @@ def step_impl(context):
         logging.info('Мы залогинились?')
        # print("Мы залогинились?")
 
+@step('Сделаем скриншот "{name}" и отправим на почту "{to_user}"')
+def step_impl(context, name, to_user):
+    screenshot = context.driver.save_screenshot("screеnshots/" + name + ".jpg")
+    send_msg_scr(to_user, name)
+
+
+def send_msg_scr(to_user, scr_name):
+    smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
+    smtpObj.starttls()
+    smtpObj.login("GlebovaPyton@gmail.com", "TestPyton6!")
+    msg = MIMEMultipart()
+    part = MIMEApplication(open("screеnshots/" + scr_name + ".jpg", 'rb').read())
+    part.add_header('Content-Disposition', 'attachment', filename="screеnshots/" + scr_name + ".jpg")
+    msg.attach(part)
+    smtpObj.sendmail("GlebovaPyton@gmail.com", to_user, msg.as_string())
+    smtpObj.quit()
+    os.remove("screеnshots/" + scr_name + ".jpg")
 
 @step('Нажимаем кнопку регистрации')
 def step_impl(context):
@@ -95,4 +119,6 @@ def step_impl(context):
 
 
 def skip_scenario(context, result):
+    screenshot = context.driver.save_screenshot("screеnshots/error_screenshot.jpg")
+    send_msg_scr("Literallle@yandex.ru", "error_screenshot")
     logging.info('Сценарий не выполнен')
