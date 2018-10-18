@@ -23,6 +23,7 @@ from features.steps import elements
 
 logging.basicConfig(format=u'%(filename)s[LINE:%(lineno)d]# %(levelname)-8s [%(asctime)s]  %(message)s',
                     filename="log.log", level=logging.INFO)
+page: str
 
 @when('Зашли на сайт "{site_name}"')
 def step_impl(context, site_name):
@@ -33,10 +34,16 @@ def step_impl(context, site_name):
     context.driver = webdriver.Firefox(executable_path=r"geckodriver.exe")
     context.driver.get(site_name)
     context.driver.delete_all_cookies()
+    global page
+    page= "Логин"
 
     @step('Кликаем на кнопку "{buttom}"')
     def step_impl(context, buttom):
-        xp = elements.buttons[buttom]
+        global page
+        if page == "Логин" :
+            xp = elements.buttons_log[buttom]
+        elif page == "Ошибка":
+            xp = elements.buttons_error[buttom]
         log_btn = context.driver.find_element(xp[0], xp[1])
         log_btn.click()
 
@@ -48,12 +55,15 @@ def step_impl(context):
 
 @step('Прверяем, что не залогинились')
 def step_impl(context):
+    global page
     try:
         log_btn = context.driver.find_element_by_id('index_login_button')
         logging.info('Мы  не залогинились!')
+        page = "Логин"
         #print("Мы  не залогинились!")
     except NoSuchElementException:
         logging.info('Мы залогинились!')
+        page = "Ват"
         #print("Мы залогинились!")
 
 @then('Вводим логин "{login}"')
@@ -69,22 +79,28 @@ def step_impl(context, password):
 
 @then('Приверяем страницу')
 def step_impl(context):
+    global page
     wait_for_element = WebDriverWait(context.driver, 10).until(
         EC.visibility_of_element_located((By.ID, "login_reg_button"))
     )
     if context.driver.current_url == "https://vk.com/":
         logging.info('Мы Не сменили страницу!')
+        page = "Логин"
         #print("Мы Не сменили страницу!")
     else:
         logging.info('Мы сменили страницу!')
+        page = "ХЗ"
         #print("Мы сменили страницу!")
 
     try:
         log_mes_btn = context.driver.find_element_by_id('login_message')
+        page = "Ошибка"
         logging.info('Мы на странице ошибки!')
+
         #print("Мы на странице ошибки!")
     except NoSuchElementException:
         logging.info('Мы залогинились?')
+        page = "Ват"
        # print("Мы залогинились?")
 
 @step('Сделаем скриншот "{name}" и отправим на почту "{to_user}"')
@@ -113,17 +129,21 @@ def step_impl(context):
 
 @step('Опять проверяем страницу')
 def step_impl(context):
+    global page
     wait_for_element = WebDriverWait(context.driver, 10).until(
         EC.visibility_of_element_located((By.ID, "ij_submit"))
     )
     if context.driver.current_url == "https://vk.com/":
         logging.info('Мы на первой странице!')
+        page = "Логин"
        # print("Мы на первой странице!")
     elif context.driver.current_url == "https://vk.com/join":
         logging.info('Мы не на первой странице, но на ее аналоге.')
+        page = "Логин"
        # print("Мы не на первой странице, но на ее аналоге.")
     else:
         logging.info('Мы не на первой странице! :с')
+        page = "Ват"
        # print("Мы не на первой странице! :с")
 
 

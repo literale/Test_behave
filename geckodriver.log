@@ -1549,3 +1549,306 @@ JavaScript error: resource://devtools/client/jsonview/converter-observer.js, lin
 1539870509876	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
 1539870514090	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450967
 1539870514216	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: null has no properties
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: null has no properties
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: null has no properties
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: null has no properties
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: null has no properties
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: null has no properties
+Warning: getUnicodeUrl failed to get a Unicode URL fromhttps://vk.com/login?m=1&email=%FB%FB, reason: URIError: malformed URI sequenceWarning: getUnicodeUrl failed to get a Unicode URL fromhttps://vk.com/login?m=1&email=%FB%FB, reason: URIError: malformed URI sequenceJavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://gre/modules/WebNavigationFrames.jsm, line 57: TypeError: window is null
+[Parent 9716, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9716, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7324, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7324, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9716, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2724, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2724, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539871271270	Marionette	INFO	Stopped listening on port 55418
+[GPU 10964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+51
+1539871219541	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1539871219542	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1539871219676	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://vk.com/
+1539871219685	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://vk.com/
+1539871219796	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://vk.com/
+1539871219797	Marionette	DEBUG	[6442450945] Received DOM event unload for https://vk.com/
+1539871220002	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://vk.com/
+1539871220016	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1539871220016	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1539871220017	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450966
+1539871220017	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450963
+1539871220139	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://vk.com/
+[Parent 9416, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9416, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539871270375	Marionette	INFO	Stopped listening on port 55512
+1539871287128	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Literal\\AppData\\Local\\Temp\\rust_mozprofile.7Qrvjj39Hozp"
+1539871291289	Marionette	INFO	Listening on port 55573
+1539871291775	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539871291804	Marionette	DEBUG	[6442450945] Frame script loaded
+1539871291806	Marionette	DEBUG	[6442450945] Frame script registered
+1539871291821	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539871292979	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539871294040	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://vk.com/
+1539871295252	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://vk.com/
+1539871295310	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://vk.com/
+1539871295397	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://vk.com/
+1539871295398	Marionette	DEBUG	[6442450945] Received DOM event unload for https://vk.com/
+1539871295670	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://vk.com/
+1539871295706	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1539871295706	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1539871295706	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1539871295707	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1539871295829	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://vk.com/
+1539871295839	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://vk.com/
+1539871295911	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://vk.com/
+1539871295912	Marionette	DEBUG	[6442450945] Received DOM event unload for https://vk.com/
+1539871296121	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://vk.com/
+1539871296137	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1539871296138	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1539871296138	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450966
+1539871296138	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450963
+1539871296259	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://vk.com/
+[Parent 6888, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_1539871332570	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://vk.com/
+1539871334092	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://vk.com/
+1539871334113	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://vk.com/
+1539871334192	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://vk.com/
+1539871334194	Marionette	DEBUG	[6442450945] Received DOM event unload for https://vk.com/
+1539871334507	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://vk.com/
+1539871334537	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1539871334538	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1539871334538	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450956
+1539871334538	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1539871334662	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://vk.com/
+1539871334670	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://vk.com/
+1539871334737	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://vk.com/
+1539871334738	Marionette	DEBUG	[6442450945] Received DOM event unload for https://vk.com/
+1539871334950	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://vk.com/
+1539871334964	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1539871334969	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450961
+1539871334969	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450966
+1539871334969	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450963
+1539871335098	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://vk.com/
+[Parent 9504, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9504, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9504, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/[Parent 9444, Gecko_IOThread] WARNIN1539871651664	Marionette	INFO	Stopped listening on port 55622
+[GPU 8232, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ome/common/ipc_channel_win.cc, line 346
+[Child 11236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9444, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/sr[Parent 6612, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromi1539871656898	Marionette	INFO	Listening on port 55806
+1539871657115	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539871657146	Marionette	DEBUG	[6442450945] Frame script loaded
+1539871657148	Marionette	DEBUG	[6442450945] Frame script registered
+1539871657166	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539871657875	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539871658843	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://vk.com/
+1539871660664	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://vk.com/
+1539871660956	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539871661254	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539871661535	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+EBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539871919338	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Literal\\AppData\\Local\\Temp\\rust_mozprofile.LJf6liDC8yBS"
+1539871923478	Marionette	INFO	Listening on port 55906
+1539871923487	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539871923528	Marionette	DEBUG	[6442450945] Frame script loaded
+1539871923532	Marionette	DEBUG	[6442450945] Frame script registered
+1539871923552	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539871924460	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539871925574	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://vk.com/
+1539871927502	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://vk.com/
+1539871927808	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539871928151	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539871928479	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 8516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11588, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11588, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5500, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539872373599	Marionette	INFO	Stopped listening on port 55906
+[GPU 3744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+0698	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539872051064	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 12088, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9620, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9620, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539872374285	Marionette	INFO	Stopped listening on port 55959
+[GPU 7712, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+85	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539872178273	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 7224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10648, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10648, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8492, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539872374281	Marionette	INFO	Stopped listening on port 56020
+[GPU 10720, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromi[Child 11184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11184, Chrome_ChildThread] WARNING: pipe err1539872374544	Marionette	INFO	Stopped listening on port 56069
+[GPU 5584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+loaded
+1539872374395	Marionette	DEBUG	[6442450945] Frame script registered
+1539872374451	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539872375054	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539872376679	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://vk.com/
+1539872377834	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://vk.com/
+1539872378097	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539872378521	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539872378863	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 8900, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8900, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1284, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539872406146	Marionette	INFO	Stopped listening on port 56134
+[GPU 2708, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539872426825	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Literal\\AppData\\Local\\Temp\\rust_mozprofile.295wzrENltFO"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1539872430944	Marionette	INFO	Listening on port 56188
+1539872430955	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539872430988	Marionette	DEBUG	[6442450945] Frame script loaded
+1539872430990	Marionette	DEBUG	[6442450945] Frame script registered
+1539872431008	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539872432431	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539872433585	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://vk.com/
+1539872434948	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://vk.com/
+1539872435247	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539872435655	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1539872435919	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 10068, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10068, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539872515186	Marionette	INFO	Stopped listening on port 56188
+[GPU 912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+6442450962
+1539872510932	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 10852, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8708, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8708, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10852, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8832, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8832, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539872516886	Marionette	INFO	Stopped listening on port 56236
+[GPU 7404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
