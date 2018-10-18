@@ -19,6 +19,8 @@ import os
 
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 
+from features.steps import elements
+
 logging.basicConfig(format=u'%(filename)s[LINE:%(lineno)d]# %(levelname)-8s [%(asctime)s]  %(message)s',
                     filename="log.log", level=logging.INFO)
 
@@ -31,6 +33,13 @@ def step_impl(context, site_name):
     context.driver = webdriver.Firefox(executable_path=r"geckodriver.exe")
     context.driver.get(site_name)
     context.driver.delete_all_cookies()
+
+    @step('Кликаем на кнопку "{buttom}"')
+    def step_impl(context, buttom):
+        xp = elements.buttons[buttom]
+        log_btn = context.driver.find_element(xp[0], xp[1])
+        log_btn.click()
+
 
 @step('Кликаем на кнопку Логина')
 def step_impl(context):
@@ -80,7 +89,7 @@ def step_impl(context):
 
 @step('Сделаем скриншот "{name}" и отправим на почту "{to_user}"')
 def step_impl(context, name, to_user):
-    screenshot = context.driver.save_screenshot("screеnshots/" + name + ".jpg")
+    screenshot = context.driver.save_screenshot("screеnshots/" + name + ".jpg")   # ругается, но сохраняет
     send_msg_scr(to_user, name)
 
 
@@ -119,6 +128,7 @@ def step_impl(context):
 
 
 def skip_scenario(context, result):
-    screenshot = context.driver.save_screenshot("screеnshots/error_screenshot.jpg")
+    name = "error_screenshot"
+    screenshot = context.driver.save_screenshot("screеnshots/" + name + ".jpg")
     send_msg_scr("Literallle@yandex.ru", "error_screenshot")
     logging.info('Сценарий не выполнен')
